@@ -208,10 +208,10 @@ void lcd_display()
 	Lcd_HandleTypeDef lcd;
 	lcd = Lcd_create(ports, pins, GPIOB, GPIO_PIN_0, GPIOB, GPIO_PIN_1, LCD_4_BIT_MODE);
 	Lcd_cursor(&lcd,0,1);
-	Lcd_string(&lcd,"N A G U L\n");
+	Lcd_string(&lcd,"R A T H I S H K U M A R\n");
 
 	Lcd_cursor(&lcd,1,1);
-	Lcd_string(&lcd,"212222230089\n");
+	Lcd_string(&lcd,"212222100043\n");
 	HAL_Delay(2000);
 
 	/*for(int i=0;i<100;i++)
